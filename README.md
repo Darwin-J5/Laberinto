@@ -1,5 +1,5 @@
 # Laberinto Automatizado
-El siguiente algoritmo trata de un diseño de un laberinto de 13 x 13 donde se parte desde una posicion predeterminada hasta otra y se mueve de manera automatica por un camino generado aleatoriamente.
+El siguiente algoritmo trata de un diseño de un laberinto de 13 x 13 donde se parte desde una posicion predeterminada hasta otra y se mueve de manera automatica por un camino generado aleatoriamente, al final, presentara la cantidad de pasos que se dio desde el inicio del laberinto hasta el final.
 [Haga click aqui para revisar el codigo del laberinto](https://github.com/Darwin-J5/Laberinto/blob/main/Laberinto_autimatico.c)
 
 # Archivo Modificado

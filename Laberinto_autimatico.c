@@ -94,6 +94,20 @@ int Resolver(int x, int y){
     return 0;
 }
 
+//funcion que cuenta la cantidad de pasos '.' que se realizaron en el recorrido para llegar hasta el final
+void ContarPasos(char matriz[tamaño][tamaño]){
+    int contador = 0;
+    for(int i = 0; i < tamaño; i++){
+        for(int j = 0; j < tamaño; j++){
+            if(matriz[i][j] == recorrido){
+                contador++;
+            }
+        }
+    }
+
+    printf("\nEl laberinto ha recorrido un total de %d pasos desde el inicio hasta el final.\n", contador);
+}
+
 //funcion principal
 int main(){
     srand(time(NULL)); //genera un numero aleatorio
@@ -108,5 +122,6 @@ int main(){
     }else{ //de otro modo:
         printf("\n\nNO SE PUEDE RESOLVER EL LABERINTO\n"); //genera un mensaje avisando que no se puede resolver el laberinto
     }
+    ContarPasos(laberinto);
     return 0;
 }
